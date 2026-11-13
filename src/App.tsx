@@ -511,9 +511,19 @@ export default function App() {
       {/* Top Studio Header */}
       <header className="h-13 shrink-0 px-4 border-b border-[#242834] bg-[#161920] flex items-center justify-between gap-6">
         <div className="flex items-center gap-5 shrink-0">
-          <span className="text-base font-bold tracking-tight text-white whitespace-nowrap shrink-0">
-            PixelDraft
-          </span>
+          <div className="flex items-center gap-2.5 shrink-0">
+            <img
+              src="/icon.svg"
+              alt="PixelDraft icon"
+              width={26}
+              height={26}
+              referrerPolicy="no-referrer"
+              className="w-6.5 h-6.5 rounded-md shrink-0"
+            />
+            <span className="text-base font-bold tracking-tight text-white whitespace-nowrap shrink-0">
+              PixelDraft
+            </span>
+          </div>
 
           <div className="h-4 w-px bg-[#2A2F3D]" aria-hidden="true" />
 
