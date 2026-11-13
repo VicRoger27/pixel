@@ -1,0 +1,6 @@
+{
+  "name": "PixelDraft",
+  "description": "A fast, intuitive pixel art studio with live dithering brushes, dithered gradients, image dithering, and effortless color selection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
